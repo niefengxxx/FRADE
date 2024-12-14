@@ -176,7 +176,7 @@ class AudioVisual_Transformer_with_Adapter_Head(nn.Module):
         self.frames = frames
         
         vit_base = create_model('vit_base_patch16_224', pretrained= False, 
-                     checkpoint_path= '/home/nief/code/visual-audio/jx_vit_base_p16_224-80ecf9dd.pth', dynamic_img_size= True)
+                     checkpoint_path= 'your pretrained model path', dynamic_img_size= True)
         self.vit_base = copy.deepcopy(vit_base)
         for i in range(len(vit_base.blocks)):
             vit_block = self.vit_base.blocks[i]
