@@ -1,4 +1,4 @@
-This is a repo of core implementation of our research "FRADE: Forgery-aware Audio-distilled Multimodal Learning for Deepfake Detection" (ACM MM 2024, Poster). this code version is based on ViT-base of timm.
+This is a repo of core implementation of our research "FRADE: Forgery-aware Audio-distilled Multimodal Learning for Deepfake Detection" (ACM MM 2024, Poster) [Link](https://dl.acm.org/doi/abs/10.1145/3664647.3681672). this code version is based on ViT-base of timm.
   
 ## Dataset Pipeline
   The pipeline is identical to the RealForensics' pipeline: [Link](https://github.com/ahaliassos/RealForensics/tree/main/stage1/data). Note: The augmented transformations of Realforensics are not involved in our model training.
